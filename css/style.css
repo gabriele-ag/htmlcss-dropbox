@@ -50,12 +50,20 @@ a {
     padding: 40px 0;
 }
 
-.mar-40y{
+.pad-bot {
+    padding-bottom: 50px;
+}
+
+.mar-200y{
     margin: 200px auto;
 }
 
 .mar-30y{
     margin: 30px auto;
+}
+
+.mar-40y {
+    margin: 40px auto;
 }
 
 .mar-bott {
@@ -125,17 +133,28 @@ body {
 }
 
 .hero-box {
+    position: relative;
     justify-content: space-between;
 }
 
-.hero-textbtn, .hero-img {
-    /* debug */
-    background-color: #00ffff;
+.hero-img {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    width: 750px;
 }
 
-.hero-img {
-    width: 60%;
+h1 {
+    font-size: 70px;
+    font-weight: bold;
 }
+
+.freccia-giù {
+    position: relative;
+    top: 35px;
+    font-size: 50px;
+}
+
 
 /* Piano-business */
 
