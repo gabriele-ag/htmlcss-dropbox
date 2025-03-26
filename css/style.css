@@ -175,10 +175,6 @@ h1 {
     padding-right: 30px;
 }
 
-/* .piano {
-    height: 900px;
-} */
-
 .piano-icon {
     height: 40px;
     text-align: center;
@@ -186,7 +182,13 @@ h1 {
 }
 
 .card-piano {
+    padding: 30px 20px;
     border-top: 1px solid var(--common-color-2);
+}
+
+.divisore {
+    width: 70px;
+    border: 1px solid var(--common-color-2);
 }
 
 /* Enterprise */
