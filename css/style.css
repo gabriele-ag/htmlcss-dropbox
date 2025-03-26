@@ -1,0 +1,125 @@
+/* RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%
+}
+
+
+/* Common */
+
+.container1 {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 60%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.col-35 {
+    width: 35%;
+}
+.col-60 {
+    width: 60%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.pad-40y {
+    padding: 40px 0;
+}
+
+.mar-40y{
+    margin: 40px auto;
+}
+
+.mar-30y{
+    margin: 30px auto;
+}
+
+.border-box{
+    border: 1px solid black;
+}
+
+/* Utilities */
+:root {
+    --common-color-1 :
+}
+
+
+/* HEADER */
+
+.header {
+    /* debug */
+    background-color:gray;
+    height: 60px;
+    padding: 20px;
+}
+
+.nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main */
+
+/* Hero */
+
+
+.hero {
+    background-color: #B4D0E6;
+}
+
+.hero-box {
+    justify-content: space-between;
+}
+
+.hero-textbtn, .hero-img {
+    /* debug */
+    background-color: #00ffff;
+}
+
+.hero-img {
+    width: 60%;
+}
+
+/* Piano-business */
+
+.seconda-parte {
+    justify-content: space-between;
+}
+
+/* debug */
+
+.piano {
+    background-color: #B4D0E6;
+    height: 900px;
+}
+
+.piano-icon {
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+
