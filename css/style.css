@@ -45,6 +45,10 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 25px;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -61,6 +65,10 @@ h2 {
 
 .bold {
     font-weight: bold;
+}
+
+p {
+    line-height: 23px;
 }
 
 /* Utilities */
@@ -113,7 +121,7 @@ h2 {
 }
 
 .mar-bott2 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .mar-bott3 {
@@ -227,13 +235,18 @@ h1 {
 }
 
 .partner-text {
-    width: 20%;
-    /* debug */
-    background-color: #00ffff;
+    width: 30%;
+    vertical-align: middle;
 }
 
 .partner-img {
     width: 60%;
+}
+
+.btn2 {
+    border: 1px solid var(--common-color-2);
+    padding: 10px 10px;
+    color: var(--common-color-2);
 }
 
 /* Business */
