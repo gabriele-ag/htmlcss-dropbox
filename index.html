@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header class="">
@@ -36,18 +37,20 @@
     <!-- Main -->
     <main>
         <!-- Hero -->
-        <section class="hero pad-40y mar-bott">
-            <h1 class="container1 pad-40y">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+        <section class="hero mar-bott">
+            <div class="herocontposition">
+            <h1 class="container1 mar-bott">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <div class="hero-box flex container1">
                 <div class="hero-textbtn col-30">
                     <p class="text-hero mar-bott">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                    <a href="button" class="prova-gratuita btn mar-bott"> Inizia la tua prova gratuita</a>
-                    <p class="text-hero mar-40y">Annulla in qualsiasi momento</p>
-                    <span class="freccia-giù"><i class="fa-solid fa-arrow-down"></i></span>
+                    <a href="button" class="prova-gratuita btn mar-bott2"> Inizia la tua prova gratuita</a>
+                    <p class="text-hero">Annulla in qualsiasi momento</p>
+                    <p class="freccia-giù"><i class="fa-solid fa-arrow-down"></i></p>
                 </div>
-                <div class="hero-img col-60">
+                <div class="hero-img col-70">
                     <img src="./img/jumbo.png" alt="hero-img">
                 </div>
+            </div>    
             </div>
         <!-- /Hero -->
         </section>
@@ -56,8 +59,8 @@
         <section class="piano-business pad-40y">
             <div class="prima-parte container2 mar-bott2">
             <h2 class="mar-bott">Trova il piano business che fa per te</h2>
-            <span class="fattura">Fatturazione mensile</span>
-            <span class="fattura">Fatturazione annuale</span>
+            <span class="fattura"><input type="radio" id="circleblu" name="fatturazione-mensile" value="circleblu" checked /> Fatturazione mensile</span>
+            <span class="fattura"><input type="radio" id="circle" name="fatturazione-annuale" value="circle"> Fatturazione annuale</span>
             </div>
             <div class="seconda-parte container2 flex">
                 <div class="piano col-30 border-box">
@@ -73,7 +76,7 @@
                                 <li class="mar-bott2"><div class="flex"><i class="fa-solid fa-folder"></i><p class="pad-left">5 TB di spazio di archiviazione sicuro</p></div></li>
                                 <li class="mar-bott"><div class="flex"><i class="fa-solid fa-share-nodes"></i><p class="pad-left">Funzioni di produttività premium e condivisione file semplice e sicura</p></div></li>
                             </ul>
-                        <a href="Prova30giorni" class="btn">Prova gratis per 30 giorni</a>
+                        <a href="Prova30giorni" class="btn3">Prova gratis per 30 giorni</a>
                         <p class="mar-40y">oppure <a href="acquistaprimopiano" class="underline">acquista ora</a></p>
                         <div class="divisore mar-bott"></div>
                         <ul>
@@ -97,7 +100,7 @@
                                 <li class="mar-bott2"><div class="flex"><i class="fa-solid fa-folder"></i><p class="pad-left">Tutto lo spazio di cui ha bisogno il tuo team</p></div></li>
                                 <li class="mar-bott"><div class="flex"><i class="fa-solid fa-share-nodes"></i><p class="pad-left">Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p></div></li>
                             </ul>
-                        <a href="Prova30giorni" class="btn">Prova gratis per 30 giorni</a>
+                        <a href="Prova30giorni" class="btn3">Prova gratis per 30 giorni</a>
                         <p class="mar-40y">oppure <a href="acquistaprimopiano" class="underline">acquista ora</a></p>
                         <div class="divisore mar-bott"></div>
                         <ul>
@@ -123,7 +126,7 @@
                                 <li class="mar-bott2"><div class="flex"><i class="fa-solid fa-folder"></i><p class="pad-left">5 TB di spazio di archiviazione sicuro</p></div></li>
                                 <li class="mar-bott"><div class="flex"><i class="fa-solid fa-share-nodes"></i><p class="pad-left">Funzioni di produttività premium e condivisione file semplice e sicura</p></div></li>
                             </ul>
-                        <a href="Prova30giorni" class="btn">Prova gratis per 30 giorni</a>
+                        <a href="Prova30giorni" class="btn3">Prova gratis per 30 giorni</a>
                         <p class="mar-40y">oppure <a href="acquistaprimopiano" class="underline">acquista ora</a></p>
                         <div class="divisore mar-bott"></div>
                         <ul>
@@ -142,7 +145,7 @@
                     <div class="piano-icon">
                         <i class="fa-solid fa-building"></i><span class="piano-icon piano"> Team</span>
                     </div>
-                    <div class="card-piano flex">
+                    <div class="card-piano-large flex">
                         <div>
                         <h3 class="titolo-card mar-bott2">Enterprise</h3>
                         <p class="bold mar-bott3">Contatto l'ufficio vendite per i prezzi</p>
@@ -172,7 +175,7 @@
 
         <section>
             <div class="dropbusiness container2">
-                <h2 class="mar-bott">Lorem ipsum dolor sit </h2>
+                <h2 class="mar-bott">Esegui più operazioni con Dropbox Business</h2>
                 <div class="dropbus-box flex">
                         <div class="dropbus-elem col-30">
                             <img src="./img/business-feature-switching-tools.png" alt="business-card1">
@@ -274,6 +277,7 @@
         </div>
 
         <div class="language container1">
+            <div class="divisorefooter mar-bott2"></div>
             <span class="lang-link"><i class="fa-solid fa-earth-americas"></i> Italiano &uparrow;</span>   
         </div>     
     </footer>
